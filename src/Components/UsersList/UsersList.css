@@ -1,0 +1,91 @@
+.btnAdd {
+  background: #FEAF00;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  text-transform: uppercase;
+  height: 44px;
+}
+
+.usersListPage {
+  background-color: #f8f8f8;
+}
+
+.user-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+hr {
+  border: 1px solid #E5E5E5
+}
+
+.user-list-table th {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.63px;
+  color: #ACACAC;
+  vertical-align: middle;
+  padding-bottom: 18px;
+
+}
+
+.user-list-table,
+.user-list-table th {
+  background-color: #f8f8f8;
+}
+
+.userAction {
+  color: #FEAF00;
+  margin-inline: 4px;
+  cursor: pointer;
+}
+
+.user-list-table tbody tr {
+  background-color: #fff;
+}
+
+.user-list-table td {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  color: #000;
+  vertical-align: middle;
+}
+
+.userImg {
+  width: 65px;
+  height: 55px;
+  border-radius: 12px;
+}
+
+.confirmBtn {
+  background-color: #FEAF00;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #FEAF00;
+  font-weight: 500;
+}
+
+.confirmBtn:hover {
+  color: #fff;
+  background-color: #e6a61c;
+  border: 1px solid #e6a61c;
+}
+
+.cancelBtn {
+  background-color: #ACACAC;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ACACAC;
+}
+
+.cancelBtn:hover {
+  color: #000;
+  background-color: grey;
+  border: 1px solid grey;
+
+}

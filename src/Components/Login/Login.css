@@ -1,61 +1,86 @@
-.loginPage{
+.loginPage {
   background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
 
 }
-.btnLogin{
-  background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
 
+.btnLogin {
+  background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  color: #fff;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
 }
-.formWrapper{
+
+.btnLogin:hover {
+  background: linear-gradient(71.17deg, #F8D442 19.35%, #FEAF00 90.12%);
+  color: #fff;
+}
+
+.formWrapper {
   text-align: left;
 }
-.cardLogin{
+
+.cardLogin {
   border-radius: 20px;
   padding: 40px 20px 50px;
 }
-.mainTitle{
+
+.mainTitle {
   font-family: Montserrat;
-font-size: 24px;
-font-weight: 700;
-line-height: 29.26px;
-color: #000;
-border-left: 6px solid #F8D442;
-text-align: left;
-padding-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  color: #000;
+  border-left: 6px solid #F8D442;
+  text-align: left;
+  padding-left: 10px;
 }
-.secondTitle{
+
+.secondTitle {
   font-family: Montserrat;
-font-size: 22px;
-font-weight: 600;
-line-height: 26.82px;
-color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.82px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.mainTxt {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  color: #6C6C6C;
+
 
 }
-.mainTxt{
-  font-family: Montserrat;
-font-size: 14px;
-font-weight: 400;
-line-height: 17.07px;
-color: #6C6C6C;
 
-
-}
-.form-control{
+.form-control {
   border: 1px solid #E5E5E5;
-height: 44px;
-border-radius: 4px;
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 400;
-line-height: 14.63px;
-color: #cdcdcd;
+  height: 44px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  color: #cdcdcd;
 
 }
-label{
-  font-family: Montserrat;
-font-size: 14px;
-font-weight: 500;
-line-height: 17.07px;
-color: #6c6c6c;
 
+.form-control:focus {
+  box-shadow: none;
+
+}
+
+label {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  color: #6c6c6c;
+  padding-bottom: 6px;
 }

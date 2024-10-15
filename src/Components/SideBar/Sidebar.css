@@ -1,0 +1,40 @@
+.sidebarContainer{
+  background: #F2EAE1;
+
+}
+.sidebarWrapper{
+  padding: 20px 25px;
+}
+.ps-sidebar-container{
+    background-color: transparent !important;
+}
+.profileName{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.72px;
+  color: #000;
+  
+}
+.profileRole{
+font-size: 14px;
+font-weight: 400;
+line-height: 17.07px;
+  color: #FEAF00;
+
+}
+
+li.ps-active{
+  width: 193px;
+/* height: 41px; */
+border-radius: 4px;
+background: #FEAF00;
+
+}
+
+.ps-menu-label{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+    color: #000;
+  
+  }
