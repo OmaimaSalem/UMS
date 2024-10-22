@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import img from "../../assets/images/caret-circle.png"
 import { AuthContext } from './../Context/AuthContext';
 export default function NavBar() {
-let{ userData }=  useContext(AuthContext)
+let{ userData }:any=  useContext(AuthContext)
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white px-4">

@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import "./Profile.css"
 export default function Profile() {
-  let { userData } = useContext(AuthContext);
+  let { userData}:any =useContext(AuthContext)
   
   return (
     <div className="p-4 bg-gray">

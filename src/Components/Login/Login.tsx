@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { useContext } from "react";
 import { AuthContext } from './../Context/AuthContext';
 export default function Login() {
-  let {saveUserData}=useContext(AuthContext)
+  let {saveUserData}:any=useContext(AuthContext)
   interface LoginFormInputs {
     username: string;
     password: string;

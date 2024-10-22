@@ -59,8 +59,8 @@ export default function UserData() {
       setValue("firstName", "");
       setValue("lastName", "");
       setValue("email", "");
-      setValue("phone", "");
-      setValue("age", "");
+      setValue("phone", NaN );
+      setValue("age",  NaN);
       setValue("birthDate", "");
     }
   }, [isEditMode, user]);

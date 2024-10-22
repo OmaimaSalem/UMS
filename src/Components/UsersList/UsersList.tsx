@@ -14,10 +14,10 @@ export default function UsersList() {
 
   // modal
   const [show, setShow] = useState(false);
-  const [userId, setUserId] = useState(null);
-  const [userData, setUserData] = useState({});
+  const [userId, setUserId] = useState<number | null>(null);
+  const [userData, setUserData] = useState<any>({});
   const handleClose = () => setShow(false);
-  const handleShow = (user) => {
+  const handleShow = (user : any) => {
     setShow(true);
     setUserId(user.id);
     setUserData(user);
@@ -28,7 +28,7 @@ export default function UsersList() {
   //   });
   // };
   //modal
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState<any[]>([]);
   const getUsers = async () => {
     try {
       const response = await axios.get("https://dummyjson.com/users");

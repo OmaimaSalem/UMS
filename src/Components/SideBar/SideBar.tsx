@@ -18,7 +18,7 @@ export default function SideBar() {
     setIsCollapsed(!isCollapsed);
   };
   const { pathname: currentPath } = useLocation();
-  let { userData } = useContext(AuthContext);
+  let { userData}:any =useContext(AuthContext)
 
   let logout = () => {
     localStorage.removeItem("userToken");
