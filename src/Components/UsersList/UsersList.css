@@ -7,6 +7,10 @@
   text-transform: uppercase;
   height: 44px;
 }
+.btnAdd:hover {
+  background: #FEAF00;
+
+}
 
 .usersListPage {
   background-color: #f8f8f8;

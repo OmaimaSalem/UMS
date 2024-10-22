@@ -3,7 +3,10 @@ import "./Login.css";
 import { SubmitHandler, useForm } from "react-hook-form";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
+import { useContext } from "react";
+import { AuthContext } from './../Context/AuthContext';
 export default function Login() {
+  let {saveUserData}=useContext(AuthContext)
   interface LoginFormInputs {
     username: string;
     password: string;
@@ -23,8 +26,8 @@ export default function Login() {
         "https://dummyjson.com/auth/login",
         data
       );
-      console.log(response);
-
+      localStorage.setItem("userToken", response?.data.accessToken);
+      saveUserData();
       toast("Login Successfully!");
       setTimeout(() => {
         navigate("/dashboard");

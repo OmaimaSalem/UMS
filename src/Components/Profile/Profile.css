@@ -1,0 +1,17 @@
+
+.userImage{
+  position: absolute;
+  top: -60px;
+}
+.userImage img{
+  width: 100px;
+  height: 100px;
+  border:1px solid #C4C4C4;
+}
+.formProfile{
+margin-top: 120px !important;
+padding-top: 50px !important;
+}
+.bg-gray{
+  background-color: #f8f8f8;
+}

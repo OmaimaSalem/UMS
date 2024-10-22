@@ -1,7 +1,9 @@
-import React from 'react'
+import { useContext } from 'react'
 import img from "../../assets/images/caret-circle.png"
-import { IoMdNotificationsOutline } from 'react-icons/io'
+import { AuthContext } from './../Context/AuthContext';
 export default function NavBar() {
+let{ userData }=  useContext(AuthContext)
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white px-4">
   <div className="container-fluid">
@@ -13,11 +15,11 @@ export default function NavBar() {
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
     
-      <form className="d-flex ms-auto align-items-center">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <IoMdNotificationsOutline className='text-muted' size={24}/>
-
-      </form>
+      <div className="d-flex ms-auto align-items-center">
+      <a className="navbar-brand" href="#">
+      Welcome {userData?.firstName}
+    </a>
+      </div>
 
     </div>
   </div>

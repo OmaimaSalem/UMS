@@ -6,9 +6,14 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import 'react-toastify/dist/ReactToastify.css';
 import App from "./App.tsx";
 import "./index.css";
+import AuthContextProvider from "./Components/Context/AuthContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
+    <AuthContextProvider>
     <App />
+
+    </AuthContextProvider>
+    
   </StrictMode>
 );

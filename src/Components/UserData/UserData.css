@@ -1,0 +1,39 @@
+.form-card{
+  box-shadow: 2px 5px 10px 0px #0000001A;
+border-radius: 20px;
+}
+.form-title{
+font-size: 22px;
+font-weight: 700;
+line-height: 26.82px;
+color: #000;
+
+}
+.form-card label{
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+color: #6c6c6c;
+}
+.form-card input{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  color: #6c6c6c;
+  background: #F8F8F8;
+  border-radius: 4px;
+  border: 1px solid #E5E5E5
+}
+.form-card button{
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+color: #fff;
+  border-radius: 4px;
+  background: #FEAF00;
+height: 44px;
+}
+.form-card button:hover{
+  color: #fff;
+  background: #dfa019;
+  }
