@@ -136,7 +136,7 @@ export default function UserData() {
             <div className="mb-1">
               <label className="form-label">Age</label>
               <input
-                type="date"
+                type="number"
                 className="form-control"
                 placeholder="Enter your Age"
                 {...register("age", {
@@ -171,7 +171,7 @@ export default function UserData() {
             <div className="mb-1">
               <label className="form-label">Birth Date</label>
               <input
-                type="text"
+                type="date"
                 className="form-control"
                 placeholder="Enter your Birth Date"
                 {...register("birthDate", {
