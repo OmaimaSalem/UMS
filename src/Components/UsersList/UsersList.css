@@ -6,6 +6,7 @@
   line-height: 17.07px;
   text-transform: uppercase;
   height: 44px;
+  margin-left: 10px;
 }
 .btnAdd:hover {
   background: #FEAF00;
@@ -17,7 +18,7 @@
 }
 
 .user-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: #000;
 }
@@ -92,4 +93,14 @@ hr {
   background-color: grey;
   border: 1px solid grey;
 
+}
+.pagination ul { 
+  display: flex;
+  list-style-type: none;
+  padding-inline: 0;
+  justify-content: center;
+}
+.pagination nav { width: 100%;}
+.pagination ul li button { 
+padding-inline: 16px;
 }

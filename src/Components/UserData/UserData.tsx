@@ -76,7 +76,7 @@ export default function UserData() {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="mt-5 m-5 p-4 form-card"
+        className="mt-5 m-md-5 p-4 form-card"
       >
         <div className="row">
           <div className="col-md-6">

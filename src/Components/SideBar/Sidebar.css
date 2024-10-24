@@ -38,3 +38,17 @@ background: #FEAF00;
     color: #000;
   
   }
+.ps-menu-button{padding-left: 0 !important;}
+
+.ps-collapsed .sidebarWrapper {
+  padding: 20px 20px;
+}
+.ps-collapsed  .ps-menu-button{
+  border-radius: 4px !important;
+}
+.ps-collapsed .profileName ,.ps-collapsed .profileRole{
+  display: none !important;
+}
+@media only screen and (max-width: 900px) {
+  .sidebarContainer{display: none;}
+}

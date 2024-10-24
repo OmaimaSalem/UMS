@@ -11,7 +11,7 @@ export default function Profile() {
       </div>
       <hr />
 
-      <form className="m-5 p-4 form-card formProfile position-relative">
+      <form className="m-md-5 p-4 form-card formProfile position-relative">
         <div className="row">
           <div className="col-12 d-flex justify-content-center">
             <div className="  userImage">

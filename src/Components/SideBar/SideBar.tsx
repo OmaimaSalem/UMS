@@ -8,7 +8,6 @@ import { TiUserAddOutline } from "react-icons/ti";
 import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "./Sidebar.css";
-import logo from "../../assets/images/Logo.png";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { AuthContext } from "../Context/AuthContext";
 export default function SideBar() {
@@ -25,7 +24,7 @@ export default function SideBar() {
     navigate("/login");
   };
   return (
-    <div className="sidebarContainer vh-100">
+    <div className="sidebarContainer h-100">
       <Sidebar collapsed={isCollapsed} className="vh-100 sidebarWrapper">
         <div className="d-flex justify-content-between align-items-center">
           <div>
@@ -35,9 +34,7 @@ export default function SideBar() {
               <FaArrowLeft size={20} onClick={toggleCollapse} />
             )}
           </div>
-          <div className="logo">
-            <img src={logo} alt="logo" />
-          </div>
+        
         </div>
         <div className="text-center my-5">
           <img
