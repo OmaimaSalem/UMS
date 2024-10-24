@@ -136,12 +136,13 @@ export default function UserData() {
             <div className="mb-1">
               <label className="form-label">Age</label>
               <input
-                type="number"
+                type="date"
                 className="form-control"
                 placeholder="Enter your Age"
                 {...register("age", {
                   required: "Age is required",
                   max: { value: 50, message: "Max age is 50" },
+                  min: { value: 0, message: "Min age is 1" },
                 })}
               />
               {errors.age && (

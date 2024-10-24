@@ -36,7 +36,7 @@ export default function UsersList() {
   //   });
   // };
   //modal
-
+  console.log(totalPages);
   const getUsers = async () => {
     try {
       const response = await axios.get(urlApi);
